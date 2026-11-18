@@ -8,14 +8,14 @@ import Charts from './Charts.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App/> ,
+    element: <App/>,
   },
   {
     path: "/charts",
-    element:<Charts/> ,
+    element:<Charts/>,
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
-    <RouterProvider router={router} />,
+ <RouterProvider router={router} />,
 )
